@@ -6,6 +6,7 @@
 
 body {
   margin-top: 100px;
+  margin-bottom: 30px;
   min-width: fit-content;
 }
 
@@ -93,15 +94,16 @@ text-align: center;
 .email-link:hover {
   text-decoration: underline;
 }
-@media(max-width: 500px) {
+@media(max-width: 600px) {
   h1{
     font-size: 50px;
   }
-  h2{font-size: 30px;}
+  h2{font-size: 30px;
+  text-align: center;}}
 
+  @media(max-width: 600px){
 .primary-link, .secondary-link{display: block;
 margin: 0 auto;
 padding: 15px 25px 15px 25px;
-
 
 }}
